@@ -18,6 +18,8 @@ A robust Node.js/TypeScript API that analyzes text using OpenAI's GPT models to 
 - Node.js 18+ and npm
 - OpenAI API key 
 
+ ### Note: ```If reviewer needs an apikey to test kindly inform me.```
+
 ## 🛠️ Installation
 
 1. **Clone the repository**
