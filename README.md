@@ -243,23 +243,3 @@ const response = await fetch('http://localhost:3000/api/analyze', {
 const result = await response.json();
 console.log(result);
 ```
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **OpenAI API Key Error**
-   - Ensure `OPENAI_API_KEY` is set in your `.env` file
-   - Verify the API key is valid and has sufficient credits
-
-2. **Port Already in Use**
-   - Change the `PORT` in your `.env` file
-   - Kill the process using the port: `lsof -ti:3000 | xargs kill`
-
-3. **Rate Limiting**
-   - Wait 15 minutes or use a different IP
-   - Consider upgrading rate limits for production use
-
-4. **Build Errors**
-   - Ensure all dependencies are installed: `npm install`
-   - Check TypeScript compilation: `npm run build`
